@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 94%);
+  font-family: Red Hat Display;
+}
+
+.background-image {
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  margin: 0 35px 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+h4 {
+  margin: 15px 0 5px 0;
+}
+
+span {
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.card {
+  max-width: 400px;
+  position: relative;
+  text-align: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+.hero-dancing {
+  border-top-left-radius: 15px;
+  width: 100%;
+  border-top-right-radius: 15px;
+}
+
+.link {
+  align-self: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.icon-music {
+  align-self: center;
+  margin: 20px;
+}
+
+.payment {
+  margin: 0 5%;
+  display: inline-flex;
+  width: 300px;
+  background-color: rgb(245, 241, 241);
+  border-radius: 15px;
+}
+
+.proceed-payment {
+  display: inline-flex;
+  justify-content: center;
+  width: 280px;
+  margin: 30px 30px 30px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 10px;
+  box-shadow: 0px 5px 5px grey;
+  border-radius: 10px;
+}
+
+.cancel {
+  padding-bottom: 25px;
+  font-weight: 900;
+}
+
+/* Active states */
+
+.proceed-payment:hover {
+  background-color: #6666ff;
+}
+
+.cancel:hover {
+  color: black
+}
+
+.link:hover {
+  color: #6666ff;
+}
